@@ -1,0 +1,63 @@
+class Btn {
+  static const String sw = "S";
+  static const String his = "H";
+  static const String del = "⌂";
+  static const String clr = "AC";
+  static const String absolute = "+/-";
+  static const String per = "%";
+  static const String multiply = "×";
+  static const String divide = "÷";
+  static const String add = "+";
+  static const String subtract = "-";
+  static const String calculate = "=";
+  static const String dot = ".";
+
+  static const String n0 = "0";
+  static const String n1 = "1";
+  static const String n2 = "2";
+  static const String n3 = "3";
+  static const String n4 = "4";
+  static const String n5 = "5";
+  static const String n6 = "6";
+  static const String n7 = "7";
+  static const String n8 = "8";
+  static const String n9 = "9";
+
+  static const List<String> buttonValues = [
+    // del,
+    clr,
+    absolute,
+    per,
+    divide,
+    n7,
+    n8,
+    n9,
+    multiply,
+    n7,
+    n8,
+    n9,
+    subtract,
+    n7,
+    n8,
+    n9,
+    add,
+    n0,
+    dot,
+    calculate,
+  ];
+  
+  static const List<String> convertButtons = [
+    n7,
+    n8,
+    n9,
+    n7,
+    n8,
+    n9,
+    n7,
+    n8,
+    n9,
+    dot,
+    n0,
+    del,
+  ];
+}
